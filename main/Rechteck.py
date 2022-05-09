@@ -1,4 +1,4 @@
-from punkt import Punkt
+from .punkt import Punkt
 
 class Rechteck:
 
@@ -24,4 +24,4 @@ class Quadrat(Rechteck):
     def __init__(self,punkt1, groesse) :
         self.p1 = punkt1
         self.p2 = Punkt(punkt1.x + groesse, punkt1.y + groesse)
-        
+
