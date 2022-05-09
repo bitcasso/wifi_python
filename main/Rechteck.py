@@ -1,4 +1,4 @@
-from .punkt import Punkt
+from punkt import Punkt
 
 class Rechteck:
 
